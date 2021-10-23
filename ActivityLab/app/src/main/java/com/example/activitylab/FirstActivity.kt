@@ -16,6 +16,8 @@ class FirstActivity : AppCompatActivity() {
         bnt1.setOnClickListener{
             Toast.makeText(this,"You clicked Button 1",Toast.LENGTH_SHORT).show()
         }
+
+
         bnt2.setOnClickListener{
             val intent = Intent(this,SecondActivity::class.java)
             startActivity(intent)
@@ -35,6 +37,7 @@ class FirstActivity : AppCompatActivity() {
             intent.data = Uri.parse("https:www.baidu.com")
             startActivity(intent)
         }
+
         bnt6.setOnClickListener{
             val data = "Hello SecondActivity"
             val intent = Intent(this,SecondActivity::class.java)
@@ -46,6 +49,7 @@ class FirstActivity : AppCompatActivity() {
             val intent = Intent(this,SecondActivity::class.java)
             startActivityForResult(intent,1)
         }
+
     }
     override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
         super.onActivityResult(requestCode, resultCode, data)
