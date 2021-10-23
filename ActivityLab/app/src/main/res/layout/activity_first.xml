@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<Button
+    android:layout_width="match_parent"
+    android:layout_height= "wrap_content"
+    android:id="@+id/bnt1"
+    android:text="弹出土司提示"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height= "wrap_content"
+        android:id="@+id/bnt2"
+        android:text="显式跳转到SECONDACTIVITY"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height= "wrap_content"
+        android:id="@+id/bnt3"
+        android:text="隐式跳转到SECONDACIVITY"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height= "wrap_content"
+        android:id="@+id/bnt4"
+        android:text="跳转到拨号界面"/>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height= "wrap_content"
+        android:id="@+id/bnt5"
+        android:text="跳转到浏览器"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height= "wrap_content"
+        android:id="@+id/bnt6"
+        android:text="Intent携带数据"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height= "wrap_content"
+        android:id="@+id/bnt7"
+        android:text="SecondActivity返回数据"/>
+
+</LinearLayout>
