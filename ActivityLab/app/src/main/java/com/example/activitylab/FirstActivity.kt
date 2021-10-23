@@ -55,7 +55,7 @@ class FirstActivity : AppCompatActivity() {
         super.onActivityResult(requestCode, resultCode, data)
         when(requestCode){
             1-> if(resultCode == RESULT_OK){
-                val returnedData = data?.getStringArrayExtra("data_return")
+                val returnedData = data?.getStringExtra("data_return")
                 Toast.makeText(this,"return data is $returnedData",Toast.LENGTH_SHORT).show()
                 Log.d("FirstActivity","return data is $returnedData")
             }
